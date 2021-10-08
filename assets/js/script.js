@@ -1,5 +1,3 @@
-JS:
-
 //Array of objects:
 var form = "Enter Addition Information here"
 var data = [
