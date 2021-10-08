@@ -66,3 +66,10 @@ info.innerHTML = details.join(' ');
 
 //Work on event listeners here:
 
+var additionalInfo = document.querySelector("#additionalInfo");
+additionalInfo.addEventListener('submit',function(event){
+  event.preventDefault();
+
+  console.log("Form has been submitted! Your food is on the way!");
+
+});
