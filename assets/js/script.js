@@ -64,7 +64,7 @@ var details = data.map(function(data) {
 
 info.innerHTML = details.join(' ');
 
-//Work on event listeners here:
+//Work on event listeners here. NOT showing error message but not showing console.log message:
 
 var additionalInfo = document.querySelector("#additionalInfo");
 additionalInfo.addEventListener('submit',function(event){
