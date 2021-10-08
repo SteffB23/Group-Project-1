@@ -64,9 +64,5 @@ var details = data.map(function(data) {
 
 info.innerHTML = details.join(' ');
 
-/*//Working on form Object Below lines 68 on:
-var moreInfo = document.querySelector('#more-info')
-var form = data.
-
-moreInfo.innerHTML = details.join(' ');*/
+//Work on event listeners here:
 
