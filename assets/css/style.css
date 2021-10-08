@@ -9,7 +9,10 @@
 
 #title {
     color: #00d7c7;
-    margin: 25px;
+    margin: 50px 25px 25px 50px;
+    font-size: 90px;
+    height: 20px;
+    padding: 100px;
 }
 
 body {
@@ -36,4 +39,32 @@ body {
     font-size: 1.2rem;
     text-align: center;
     flex-direction: column;
+}
+
+.form {
+    padding: 15px;
+    background: #08beff;
+    margin: 15px;
+    border-radius: 10px;
+    color: white;
+    font-size: 1.2rem;
+    text-align: center;
+    flex-direction: column;
+}
+
+#additional-form {
+    padding: 30px;
+    background: #08beff;
+    margin: 15px;
+    border-radius: 10px;
+    color: white;
+    font-size: 1.2rem;
+    text-align: center;
+    width: 50%;
+    height: 75%;
+}
+span {
+    color: #00d7c7;
+    font-size: 90px;
+    margin: 0;
 }
