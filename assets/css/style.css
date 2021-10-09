@@ -24,6 +24,10 @@ body {
     height: 100vh;
 }
 
+div {
+    cursor: pointer;
+}
+
 #info {
     display: grid;
     grid-template-columns: 1fr 1fr;

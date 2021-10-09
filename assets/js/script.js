@@ -73,3 +73,10 @@ additionalInfo.addEventListener('submit',function(event){
   console.log("Form has been submitted! Your food is on the way!");
 
 });
+//Link this object to the doc w/event listener:
+document.querySelector('#push').onclick = function() {
+  if(document.querySelector('#newtask input').value.length == 0) {
+      alert('ENTER TEXT HERE');
+      console.log("Employee has completed their order and submitted.");
+  }
+}
