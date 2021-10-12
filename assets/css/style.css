@@ -1,9 +1,89 @@
-body {
-
-}
 
 
 
-.h-32 w-full object-cover {
+
+/* .min-h-screen {
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.438), 0 15px 12px rgba(0, 0, 0, 0.493);
+} */
+body{
+    background-image: url('https://c1.wallpaperflare.com/preview/231/211/688/knife-food-wood-table.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .cool{
     background-size: cover;
-}
+  }
+  .h-32 {
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  
+  .h-24 w-24 rounded-full ring-4 ring-white sm:h-32 sm:w-32 {
+    background-size: cover;
+  }
+  
+  .h-32 w-full object-cover {
+      background-size: cover;
+  }
+  
+  .max-h-12-1 {
+    border-radius: 25px;
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.438), 0 15px 12px rgba(0, 0, 0, 0.493);
+  }
+  
+  .max-h-12-1:hover{
+    transform: scale(1.1);
+    box-shadow: 0 19px 38px rgb(0, 0, 0), 0 15px 12px rgb(0, 0, 0);
+    
+  }
+  .max-h-12-2 {
+    border-radius: 25px;
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.438), 0 15px 12px rgba(0, 0, 0, 0.493);
+  }
+  .max-h-12-2:hover{
+    transform: scale(1.1);
+    box-shadow: 0 19px 38px rgb(0, 0, 0), 0 15px 12px rgb(0, 0, 0);
+  }
+  .max-h-12-3 {
+    border-radius: 25px;
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.438), 0 15px 12px rgba(0, 0, 0, 0.493);
+    
+  }
+  .max-h-12-3:hover{
+    transform: scale(1.1);
+    box-shadow: 0 19px 38px rgb(0, 0, 0), 0 15px 12px rgb(0, 0, 0);
+    
+  }
+  
+  .max-h-12-4 {
+    border-radius: 25px;
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.438), 0 15px 12px rgba(0, 0, 0, 0.493);
+  }
+  
+  .max-h-12-4:hover{
+    transform: scale(1.1);
+    box-shadow: 0 19px 38px rgb(0, 0, 0), 0 15px 12px rgb(0, 0, 0);
+    
+  }
+  
+  .max-h-12-5 {
+    border-radius: 25px;
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.438), 0 15px 12px rgba(0, 0, 0, 0.493);
+  }
+  
+  .max-h-12-5:hover{
+    transform: scale(1.1);
+    box-shadow: 0 19px 38px rgb(0, 0, 0), 0 15px 12px rgb(0, 0, 0);
+    
+  }
+  
+  .max-h-12-6 {
+    border-radius: 25px;
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.438), 0 15px 12px rgba(0, 0, 0, 0.493);
+  }
+  
+  .max-h-12-6:hover{
+    transform: scale(1.1);
+    box-shadow: 0 19px 38px rgb(0, 0, 0), 0 15px 12px rgb(0, 0, 0);
+    
+  }
