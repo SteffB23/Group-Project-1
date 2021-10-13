@@ -1,74 +1,89 @@
-@import url('https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-family: 'Lobster Two', cursive;
-}
-
-#title {
-    color: #00d7c7;
-    margin: 50px 25px 25px 50px;
-    font-size: 90px;
-    height: 20px;
-    padding: 100px;
-}
-
-body {
-    background-color: #282c34;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-}
-
-div {
-    cursor: pointer;
-}
-
-#info {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-
-}
-
-#info div {
-    padding: 15px;
-    background: #08beff;
-    margin: 15px;
-    border-radius: 10px;
-    color: white;
-    font-size: 1.2rem;
-    text-align: center;
-    flex-direction: column;
-}
-
-.form {
-    padding: 15px;
-    background: #08beff;
-    margin: 15px;
-    border-radius: 10px;
-    color: white;
-    font-size: 1.2rem;
-    text-align: center;
-    flex-direction: column;
-}
-
-#additional-form {
-    padding: 30px;
-    background: #08beff;
-    margin: 15px;
-    border-radius: 10px;
-    color: white;
-    font-size: 1.2rem;
-    text-align: center;
-    width: 50%;
-    height: 75%;
-}
-span {
-    color: #00d7c7;
-    font-size: 90px;
-    margin: 0;
-}
+* .min-h-screen {
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.438), 0 15px 12px rgba(0, 0, 0, 0.493);
+} */
+body{
+    background-image: url('https://c1.wallpaperflare.com/preview/231/211/688/knife-food-wood-table.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .cool{
+    background-size: cover;
+  }
+  .h-32 {
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  
+  .h-24 w-24 rounded-full ring-4 ring-white sm:h-32 sm:w-32 {
+    background-size: cover;
+  }
+  
+  .h-32 w-full object-cover {
+      background-size: cover;
+  }
+  
+  .max-h-12-1 {
+    border-radius: 25px;
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.438), 0 15px 12px rgba(0, 0, 0, 0.493);
+  }
+  
+  .max-h-12-1:hover{
+    transform: scale(1.1);
+    box-shadow: 0 19px 38px rgb(0, 0, 0), 0 15px 12px rgb(0, 0, 0);
+    
+  }
+  .max-h-12-2 {
+    border-radius: 25px;
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.438), 0 15px 12px rgba(0, 0, 0, 0.493);
+  }
+  .max-h-12-2:hover{
+    transform: scale(1.1);
+    box-shadow: 0 19px 38px rgb(0, 0, 0), 0 15px 12px rgb(0, 0, 0);
+  }
+  .max-h-12-3 {
+    border-radius: 25px;
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.438), 0 15px 12px rgba(0, 0, 0, 0.493);
+    
+  }
+  .max-h-12-3:hover{
+    transform: scale(1.1);
+    box-shadow: 0 19px 38px rgb(0, 0, 0), 0 15px 12px rgb(0, 0, 0);
+    
+  }
+  
+  .max-h-12-4 {
+    border-radius: 25px;
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.438), 0 15px 12px rgba(0, 0, 0, 0.493);
+  }
+  
+  .max-h-12-4:hover{
+    transform: scale(1.1);
+    box-shadow: 0 19px 38px rgb(0, 0, 0), 0 15px 12px rgb(0, 0, 0);
+    
+  }
+  
+  .max-h-12-5 {
+    border-radius: 25px;
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.438), 0 15px 12px rgba(0, 0, 0, 0.493);
+  }
+  
+  .max-h-12-5:hover{
+    transform: scale(1.1);
+    box-shadow: 0 19px 38px rgb(0, 0, 0), 0 15px 12px rgb(0, 0, 0);
+    
+  }
+  
+  .max-h-12-6 {
+    border-radius: 25px;
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.438), 0 15px 12px rgba(0, 0, 0, 0.493);
+  }
+  
+  .max-h-12-6:hover{
+    transform: scale(1.1);
+    box-shadow: 0 19px 38px rgb(0, 0, 0), 0 15px 12px rgb(0, 0, 0);
+    
+  }

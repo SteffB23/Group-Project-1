@@ -27,23 +27,23 @@ WHEN I load the form, I am presented with a food menu
 WHEN I enter my Id and email 
 THEN I should be able to access the main menu 
 WHEN I'm in the main menu 
-THEN I will be able to choose something from the menu 
+THEN I will be able to choose a meal or item from the menu 
 WHEN I choose something from the menu 
-THEN I should have an option to add more details
+THEN I should have an option to add options to customize my order
 WHEN my order is completed 
 THEN I can place my order (submit)
 WHEN my order is ready
-I SHOULD receive an alert "Your food is ready".
+I SHOULD see a modal display "Your food is ready".
 
 ## First Task for each member
 Amar & paul:
-Template of the first page style, links & functionality.
+Template of the first page style, APIs, form to enter employee ID# & password.
 
 Stephan and Yassin:
-Template of second page style, links & functionality.
+Template of second page style, links submit order button with modal to display a message and log all data to the console.
 
 ## What does the functioning prototype have in features for the first week? -->
-Check it out!
+We will have a UI, design scheme and form
 
 
 
