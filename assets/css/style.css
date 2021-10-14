@@ -1,8 +1,8 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
 
-* .min-h-screen {
+
+
+
+/* .min-h-screen {
   box-shadow: 0 19px 38px rgba(0, 0, 0, 0.438), 0 15px 12px rgba(0, 0, 0, 0.493);
 } */
 body{
@@ -29,7 +29,6 @@ body{
   .max-h-12-1 {
     border-radius: 25px;
     box-shadow: 0 19px 38px rgba(0, 0, 0, 0.438), 0 15px 12px rgba(0, 0, 0, 0.493);
-    cursor: pointer;
   }
   
   .max-h-12-1:hover{
@@ -40,7 +39,6 @@ body{
   .max-h-12-2 {
     border-radius: 25px;
     box-shadow: 0 19px 38px rgba(0, 0, 0, 0.438), 0 15px 12px rgba(0, 0, 0, 0.493);
-    cursor: pointer;
   }
   .max-h-12-2:hover{
     transform: scale(1.1);
@@ -49,7 +47,6 @@ body{
   .max-h-12-3 {
     border-radius: 25px;
     box-shadow: 0 19px 38px rgba(0, 0, 0, 0.438), 0 15px 12px rgba(0, 0, 0, 0.493);
-    cursor: pointer;
     
   }
   .max-h-12-3:hover{
@@ -61,7 +58,6 @@ body{
   .max-h-12-4 {
     border-radius: 25px;
     box-shadow: 0 19px 38px rgba(0, 0, 0, 0.438), 0 15px 12px rgba(0, 0, 0, 0.493);
-    cursor: pointer;
   }
   
   .max-h-12-4:hover{
@@ -73,7 +69,6 @@ body{
   .max-h-12-5 {
     border-radius: 25px;
     box-shadow: 0 19px 38px rgba(0, 0, 0, 0.438), 0 15px 12px rgba(0, 0, 0, 0.493);
-    cursor: pointer;
   }
   
   .max-h-12-5:hover{
@@ -85,15 +80,10 @@ body{
   .max-h-12-6 {
     border-radius: 25px;
     box-shadow: 0 19px 38px rgba(0, 0, 0, 0.438), 0 15px 12px rgba(0, 0, 0, 0.493);
-    cursor: pointer;
   }
   
   .max-h-12-6:hover{
     transform: scale(1.1);
     box-shadow: 0 19px 38px rgb(0, 0, 0), 0 15px 12px rgb(0, 0, 0);
     
-  }
-
-  .text-base {
-      font-size: 50px;
   }

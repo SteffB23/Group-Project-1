@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <title></title>
+</head>
+<body>
+    <header>
+        <!-- This example requires Tailwind CSS v2.0+ -->
+<div>
+    <div>
+      <img class="h-32 w-full object-cover lg:h-48" src="https://thumbs.dreamstime.com/b/white-lettering-black-chalkboard-lunch-time-174345639.jpg" alt="">
+    </div>
+    <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="-mt-12 sm:-mt-16 sm:flex sm:items-end sm:space-x-5">
+        <div class="flex">
+          <img class="h-24 w-24 rounded-full ring-4 ring-white sm:h-32 sm:w-32" src="https://static-24.sinclairstoryline.com/resources/media/971a5dae-c734-4af8-bcf3-02adf3d954a9-smallScale_28DSC04876.jpg?1629926171152" alt="">
+        </div>
+        <div class="mt-6 sm:flex-1 sm:min-w-0 sm:flex sm:items-center sm:justify-end sm:space-x-6 sm:pb-1">
+          <div class="sm:hidden md:block mt-6 min-w-0 flex-1">
+            <h1 class="text-2xl font-bold text-gray-900 truncate">
+              Lunch Time
+            </h1>
+          </div>
+          <div class="mt-6 flex flex-col justify-stretch space-y-3 sm:flex-row sm:space-y-0 sm:space-x-4">
+            <button type="button" class="inline-flex justify-center px-4 py-2 border border-gray-300 shadow-sm text-sm font-medium rounded-md text-gray-700 bg-white hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-pink-500">
+              <!-- Heroicon name: solid/mail -->
+              <svg class="-ml-1 mr-2 h-5 w-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" />
+                <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
+              </svg>
+              <span>Message</span>
+            </button>
+            <button type="button" class="inline-flex justify-center px-4 py-2 border border-gray-300 shadow-sm text-sm font-medium rounded-md text-gray-700 bg-white hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-pink-500">
+              <!-- Heroicon name: solid/phone -->
+              <svg class="-ml-1 mr-2 h-5 w-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
+              </svg>
+              <span>Call</span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="hidden sm:block md:hidden mt-6 min-w-0 flex-1">
+        <h1 class="text-2xl font-bold text-gray-900 truncate">
+          Ricardo Cooper
+        </h1>
+      </div>
+    </div>
+  </div>
+  <!-- Add your ID and login information -->
+
+<!--
+  This example requires Tailwind CSS v2.0+ 
+  
+  This example requires some changes to your config:
+  
+  ```
+  // tailwind.config.js
+  module.exports = {
+    // ...
+    plugins: [
+      // ...
+      require('@tailwindcss/forms'),
+    ],
+  }
+  ```
+-->
+<div class="min-h-screen bg-gray-50 flex flex-col justify-center py-12 sm:px-6 lg:px-8">
+  <div class="sm:mx-auto sm:w-full sm:max-w-md">
+    <img class="mx-auto h-12 w-auto" src="https://static-24.sinclairstoryline.com/resources/media/971a5dae-c734-4af8-bcf3-02adf3d954a9-smallScale_28DSC04876.jpg?1629926171152" alt="Workflow">
+    <h2 class="mt-6 text-center text-3xl font-extrabold text-gray-900">
+      Sign in to your account
+    </h2>
+    <p class="mt-2 text-center text-sm text-gray-600">
+      Or
+      <a href="#" class="font-medium text-indigo-600 hover:text-indigo-500">
+        start your 14-day free trial
+      </a>
+    </p>
+  </div>
+
+  <div class="mt-8 sm:mx-auto sm:w-full sm:max-w-md">
+    <div class="bg-white py-8 px-4 shadow sm:rounded-lg sm:px-10">
+      <form class="space-y-6" action="#" method="POST">
+        <div>
+          <label for="email" class="block text-sm font-medium text-gray-700">
+            Email or Username
+          </label>
+          <div class="mt-1">
+            <input id="email" name="email" type="email" autocomplete="email" required class="appearance-none block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm placeholder-gray-400 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm">
+          </div>
+        </div>
+
+        <div>
+          <label for="password" class="block text-sm font-medium text-gray-700">
+            Employer ID Number
+          </label>
+          <div class="mt-1">
+            <input id="password" name="password" type="password" autocomplete="current-password" required class="appearance-none block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm placeholder-gray-400 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm">
+          </div>
+        </div>
+
+        <div class="flex items-center justify-between">
+          <div class="flex items-center">
+            <input id="remember-me" name="remember-me" type="checkbox" class="h-4 w-4 text-indigo-600 focus:ring-indigo-500 border-gray-300 rounded">
+            <label for="remember-me" class="ml-2 block text-sm text-gray-900">
+              Remember me
+            </label>
+          </div>
+
+          <div class="text-sm">
+            <a href="#" class="font-medium text-indigo-600 hover:text-indigo-500">
+              Forgot your ID Number?
+            </a>
+          </div>
+        </div>
+
+        <div>
+          <button type="submit" class="w-full flex justify-center py-2 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
+            Sign in
+          </button>
+        </div>
+      </form>
+    </header>
+    <!-- This example requires Tailwind CSS v2.0+ -->
+    <section>
+<div class="bg-white">
+    <div class="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
+      <p class="text-center text-base font-semibold uppercase text-gray-600 tracking-wider">
+        Trusted by over 5 very average small businesses
+      </p>
+      <div class="mt-6 grid grid-cols-2 gap-0.5 md:grid-cols-3 lg:mt-8">
+        <div class="col-span-1 flex justify-center py-8 px-8 bg-gray-50">
+          <img class="max-h-12-1" src="https://cdn.pixabay.com/photo/2017/12/09/08/18/pizza-3007395__480.jpg" alt="Workcation">
+        </div>
+        <div class="col-span-1 flex justify-center py-8 px-8 bg-gray-50">
+          <img class="max-h-12-2" src="https://wallpapercave.com/wp/wp4325776.jpg" alt="Mirage">
+        </div>
+        <div class="col-span-1 flex justify-center py-8 px-8 bg-gray-50">
+          <img class="max-h-12-3" src="https://img.freepik.com/free-photo/salad-tomatoes-cucumber-red-onions-lettuce-leaves_2829-1732.jpg?size=626&ext=jpg" alt="Tuple">
+        </div>
+        <div class="col-span-1 flex justify-center py-8 px-8 bg-gray-50">
+            <img class="max-h-12-4" src="https://previews.123rf.com/images/lmv/lmv1707/lmv170700072/81939783-restaurant-menu-design-vector-menu-brochure-template-for-cafe-coffee-house-restaurant-bar-food-and-d.jpg" alt="Laravel">
+          </div>
+          <div class="col-span-1 flex justify-center py-8 px-8 bg-gray-50">
+            <img class="max-h-12-5" src="https://images.unsplash.com/photo-1550507992-eb63ffee0847?ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8c2FuZHdpY2h8ZW58MHx8MHx8&ixlib=rb-1.2.1&w=1000&q=80" alt="StaticKit">
+          </div>
+          <div class="col-span-1 flex justify-center py-8 px-8 bg-gray-50">
+            <img class="max-h-12-6" src="https://popmenucloud.com/cdn-cgi/image/width=1200,height=1200,fit=scale-down,format=auto,quality=60/zuqbklfi/453707ba-bcac-4011-ab51-79a031470450.JPG" alt="Statamic">
+        </section>
+        <footer>
+
+        </footer>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
