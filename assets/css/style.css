@@ -10,6 +10,14 @@ body{
     background-size: contain;
     background-repeat: no-repeat;
   }
+  /* style time and weather/location */
+  #demo2{
+
+  }
+  
+  #weather{
+   
+  }
   .cool{
     background-size: cover;
   }
