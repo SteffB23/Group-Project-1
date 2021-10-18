@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+<!-- header start here -->
+<!-- This example requires Tailwind CSS v2.0+ -->
+
+<div class=" md:flex md:items-center md:justify-between md:space-x-5" >
+    <div class="flex items-start space-x-5">
+      <div class="flex-shrink-0">
+        <div class="relative">
+          <img class="h-16 w-16 rounded-full" src="https://static-24.sinclairstoryline.com/resources/media/971a5dae-c734-4af8-bcf3-02adf3d954a9-smallScale_28DSC04876.jpg?1629926171152" alt="">
+          <span class="absolute inset-0 shadow-inner rounded-full" aria-hidden="true"></span>
+        </div>
+      </div>
+      <!--
+        Use vertical padding to simulate center alignment when both lines of text are one line,
+        but preserve the same layout if the text wraps without making the image jump around.
+      -->
+      <div class="pt-1.5">
+        <h1 class="text-2xl font-bold text-gray-900"><span id='penn'>Penn</span> LPS PIZZA</h1>
+        <div id="line3"></div>
+        <!-- Date and Time Will be here: -->
+        
+        <p class="text-sm font-medium text-gray-500">it is even better <a href="#" class="text-gray-900"></a> on <time datetime="2020-08-25">August 25, 2020</time></p>
+      </div>
+    </div>
+    <div class=" mt-6 flex flex-col-reverse justify-stretch space-y-4 space-y-reverse sm:flex-row-reverse sm:justify-end sm:space-x-reverse sm:space-y-0 sm:space-x-3 md:mt-0 md:flex-row md:space-x-3">
+      <button type="button" id="homeBtn" class="inline-flex-1 items-center justify-center px-4 py-2 border border-gray-300 shadow-sm text-sm font-medium rounded-md text-gray-700 bg-white hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-100 focus:ring-indigo-500">
+       HOME
+      </button>
+      <button type="button" id="menuBtn" class="inline-flex-1 items-center justify-center px-4 py-2 border border-gray-300 shadow-sm text-sm font-medium rounded-md text-gray-700 bg-white hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-100 focus:ring-indigo-500">
+        MENU
+      </button>
+      <button type="button" id="aboutBtn" class="inline-flex-1 items-center justify-center px-4 py-2 border border-gray-300 shadow-sm text-sm font-medium rounded-md text-gray-700 bg-white hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-100 focus:ring-indigo-500">
+        ABOUT
+      </button>
+      <button type="button" id="contactBtn" class="inline-flex items-center justify-center px-4 py-2 border border-transparent text-sm font-medium rounded-md shadow-sm text-white bg-indigo-600  focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-100 focus:ring-indigo-500">
+        CONTACT
+      </button>
+    </div>
+  </div>
+
+  
+<!-- header ends here -->
+      <!-- section -->
+      <div class="mt-8 grid grid-cols-1 gap-0.5 md:grid-cols-1 lg:mt-0 lg:grid-cols-1">
+        
+        <!-- <div class="col-span-1 flex justify-center py-8 px-8 bg-gray-50"> -->
+            <video autoplay muted loop id="myVideo">
+                <source src="FoodPack1_12_Videvo (1).mov" type="video/mp4">
+                
+              </video>
+              <div class="content" class="inline-flex items-center justify-center px-4 py-2 border border-transparent ">
+                <h1 id='quality-food'>Only Quality Food</h1>
+                <div id="line"></div>
+                <p>FOOD DELIVERY SERVICE</p>
+                <!-- Use a button to pause/play the video with JavaScript -->
+                <div class="my-btn">
+                    <button id="myBtn-left" class="inline-flex items-center justify-center px-4 py-2 border border-transparent ">Main Menu</button>
+                    <button id="myBtn-right" >Order Now</button>
+                </div>
+                
+              </div>
+            
+        <!-- </div> -->
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

@@ -1,4 +1,25 @@
 
+// // MainPageNew Start Here
+// // MainPageNew Start Here
+
+// var orderNowbtn =document.getElementById('myBtn-left');
+
+// orderNowbtn.addEventListener('click',mainMenu);
+
+// function mainMenu(){
+//     window.location = 'MenuPageOrigin.html'
+// }
+// var orderNowbtn =document.getElementById('myBtn-right');
+
+// orderNowbtn.addEventListener('click',orderNow);
+
+// function orderNow(){
+//     window.location = 'infoPage.html'
+// }
+// // MainPageNew ENDs Here
+// // MainPageNew ENDs Here
+
+
 
 var pizzaEl =document.querySelector('.max-h-12-1');
 
