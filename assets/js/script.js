@@ -7,7 +7,7 @@ var weatherContainer = document.getElementById('weather');
 const format2 = "YYYY-MM-DD"
 var date2 = new Date();
 dateTime2 = moment(date2).format(format2);
-document.getElementById("demo2").innerHTML = "As of :"+"" +dateTime2;
+document.getElementById("demo2").innerHTML = dateTime2;
 
 
 
@@ -21,7 +21,7 @@ function getApiW(){
     .then(function(data){
 console.log(data);
 var wthEl = document.createElement('h2');
-wthEl.setAttribute('style', ' display: block;font-size: 3.5rem;line-height: .96em;font-weight: 500;');
+wthEl.setAttribute('style', ' display: block;font-size: 1rem;line-height: .96em;font-weight: 500;');
 
 
 

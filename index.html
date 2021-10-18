@@ -55,19 +55,23 @@
   </div>
   
 
-  <div class="grid grid-cols-1 gap-4 sm:grid-cols-2">
-    <div class="relative rounded-lg border border-gray-300 bg-white px-6 py-5 shadow-sm flex items-center space-x-3 hover:border-gray-400 focus-within:ring-2 focus-within:ring-offset-2 focus-within:ring-indigo-500">
+  <div class="grid
+    gap-4" >
+    <div class="relative rounded-lg border border-gray-300 bg-white px-6 py-5 shadow-sm flex items-center space-x-3 hover:border-gray-400 focus-within:ring-2 focus-within:ring-offset-2 focus-within:ring-indigo-500" id="weather-card">
       <div class="flex-shrink-0">
         <img class="h-10 w-10 rounded-full" src="https://images-na.ssl-images-amazon.com/images/I/71rfKY1uYPL.png" alt="">
       </div>
       <div class="flex-1 min-w-0">
-        <a href="#" class="focus:outline-none">
-          <span class="absolute inset-0" aria-hidden="true"></span>
-          <p class="text-sm font-medium text-gray-900">
-            Philadelphia, PA Weather
+        <a href="#" class="focus:outline-none" id="weather-block">
+          <span class="absolute inset-0 weather-item" aria-hidden="true"></span>
+          <p class="text-sm font-medium text-gray-900 weather-item">
+             Current Weather 
+        Philadelphia, PA Weather
           </p>
-          <p id="demo2" ></p>
-          <div id="weather" ></div>
+          <p id="demo2"  class="weather-item"></p>
+          <div class="weather-item" id="weather-temp">
+            <div id="weather"></div>
+          </div>
   
         </a>
       </div>
@@ -75,7 +79,7 @@
   </div>
   
     <!-- More people...
-  </div> -->
+  </div> 
 
   <!-- <div id="weather" ></div> -->
   <!-- Add your ID and login information -->
@@ -96,7 +100,7 @@
   }
   ```
 -->
-<!-- 
+
 <div class="min-h-screen bg-gray-50 flex flex-col justify-center py-12 sm:px-6 lg:px-8">
   <div class="sm:mx-auto sm:w-full sm:max-w-md">
     <img class="mx-auto h-12 w-auto" src="https://static-24.sinclairstoryline.com/resources/media/971a5dae-c734-4af8-bcf3-02adf3d954a9-smallScale_28DSC04876.jpg?1629926171152" alt="Workflow">
@@ -161,7 +165,7 @@ Location::
           </button>
         </div>
       </form>
-    </header> --> 
+    </header> 
     <!-- This example requires Tailwind CSS v2.0+ -->
     <section>
 <div class="bg-white">

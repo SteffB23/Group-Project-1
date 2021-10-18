@@ -24,6 +24,29 @@ body{
   #weather{
    
   }
+  #weather-block {
+    display: flex; 
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+   
+
+  }
+  .weather-item{
+    padding: 10px;
+    font-family: sans-serif;
+    font-size: 16px;
+
+  }
+  #weather-card {
+    width: 95% !important;
+    margin: auto 
+   
+  }
+  #weather-temp {
+    display: grid;
+    place-items: center;
+  }
   .cool{
     background-size: cover;
   }
