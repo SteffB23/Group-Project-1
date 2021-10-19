@@ -218,3 +218,11 @@ function chooseMenu3(){
     window.location= "Salad.html"
 }
 // Main Menu End here:
+
+var homeButton = document.getElementById('homeBtn');
+homeButton.addEventListener('click', function(e){
+  console.log("test")
+window.location = "MainPageNew.html";
+
+
+});
