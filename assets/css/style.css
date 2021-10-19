@@ -47,7 +47,7 @@ body{
   }
   
   .max-h-12-1:hover{
-    transform: scale(1.1);
+    transform: scale(1.2);
     box-shadow: 0 19px 38px rgb(0, 0, 0), 0 15px 12px rgb(0, 0, 0);
     
   }
@@ -102,3 +102,65 @@ body{
     box-shadow: 0 19px 38px rgb(0, 0, 0), 0 15px 12px rgb(0, 0, 0);
     
   }
+
+  /* check box */
+  /* for pizza section */
+  .pizza{
+    background-image: url('https://media.istockphoto.com/photos/pepperoni-pizza-on-wooden-table-picture-id1301482898?b=1&k=20&m=1301482898&s=170667a&w=0&h=XLgT9kG_7_n02S-YzOY71EzcGgqBnY-GukEfhjOui64=');
+
+  }
+  ul li  {
+    color: white;
+  }
+/* for pasta section */
+.pasta{
+  background-image: url('https://img.freepik.com/free-photo/penne-pasta-tomato-sauce-with-chicken-tomatoes-wooden-table_2829-19744.jpg?size=626&ext=jpg&ga=GA1.2.1937569697.1618099200');
+}
+  /* for salad section */
+  .salad {
+    background-image: url('https://img.freepik.com/free-photo/salad-from-tomatoes-cucumber-red-onions-lettuce-leaves-healthy-summer-vitamin-menu-vegan-vegetable-food-vegetarian-dinner-table-top-view-flat-lay_2829-6482.jpg?size=626&ext=jpg&ga=GA1.2.2140585734.1629504000');
+  }
+
+
+  /* styling Submit Your order */
+  #submitOrder {
+    
+    color:white;
+    font-size: large;
+    margin-top: 25px;
+    background-color: crimson;
+    border-radius: 15px;
+    border: none;
+    padding:15px;
+  }
+  #submitOrder:hover {
+    background-color: white;
+    color:crimson;
+    border:1px solid gray;
+    
+  }
+
+
+/* THIS IS THE INFO FORM 👇 */
+fieldset{
+  border-radius: 5px;
+  margin: 25px;
+  padding: 25px;
+  justify-content: stretch;
+  align-items: center;
+  display: flex;
+}
+
+#text-header {
+  font-size: 25px;
+  font-weight: 500;
+}
+
+#getLocation {
+  border-style: groove;
+  border-color: black;
+  margin-left: 25px;
+  margin-top: 30px;
+}
+
+/* THIS IS THE INFO FORM ☝️ */
