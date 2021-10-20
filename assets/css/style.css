@@ -13,6 +13,11 @@
   width: 77%;
   background-color:#FFA500 ;
 }
+#line-menu{
+  height: 2px;
+  width: 100%;
+  background-color:#FFA500 ;
+}
 
 .mt-8 {
   border-radius:15px;
@@ -142,7 +147,7 @@ body{
   /* style time and weather/location */
 
   #demo2 {
-    color:#FFA500;
+    color:black;
     font-size: x-large;
   }
   
