@@ -29,14 +29,20 @@ menuButton.addEventListener('click', function(e){
 });
 
 // get checked value from checkbox:
-function is_checkbox (){
-  var mashrooms =document.getElementById('cond1').checked;
-  var greenPapper =document.getElementById('cond2').checked;
+var addBtn = document.getElementById('add')
+var textEl =document.getElementById('text1')
 
-  if(mashrooms==false && greenPapper== false){
-    alert('Please check ...')
-    return false
+addBtn.addEventListener('click', printChecked)
+function printChecked() {
+  var items = document.getElementsByName("acs");
+  var selectedItems = " ";
+  for (var i = 0; i < items.length; i++) {
+      if (items[i].type == "checkbox" && items[i].checked == true) selectedItems += items[i].value + "\n";
   }
+  
+  localStorage.setItem('selected',JSON.stringify(selectedItems) );
+  
+ 
 }
 
 
@@ -65,7 +71,7 @@ getApiW();
 // Geolocation:
 
 
-var locationEl = document.getElementById('getLocation')
+var locationEl = document.getElementById('submitOrder')
  var newDiv = document.getElementById('myLocation')
 
 
@@ -106,7 +112,7 @@ function success(data){
     request.open('GET', request_url, true);
   
     request.onload = function() {
-      // see full list of possible response codes:
+     
       // https://opencagedata.com/api#codes
   
       if (request.status === 200){ 
@@ -114,16 +120,15 @@ function success(data){
         var data = JSON.parse(request.responseText);
         // replace alert by an Element tag
 
-        // var locationEl= document.getElementById('location');
-        // locationEl.textContent="My current Address :" + ""+data.results[0].formatted;
+       
 
         // lets store the address and use it for confirmation.
         var address =data.results[0].formatted;
         localStorage.setItem('Address',JSON.stringify(address));
-        // alert(data.results[0].formatted); // print the location
+       
   
       } else if (request.status <= 500){ 
-        // We reached our target server, but it returned an error
+        
                              
         console.log("unable to geocode! Response code: " + request.status);
         var data = JSON.parse(request.responseText);
@@ -146,15 +151,21 @@ getApiGeo();
 
 
 // get User location
-var enterLocation = document.getElementById('getLocation');
+var enterLocation = document.getElementById('submitOrder');
 enterLocation.addEventListener('click',getloc);
 
 function getloc(){
 
 
-   var texTag = document.createElement('h2');
-   texTag.textContent = "Is this your current Location :"+ ''+ JSON.parse(localStorage.getItem('Address'));
-   newDiv.append(texTag);
+   var addresEl = document.getElementById('adress')
+   addresEl.innerHTML = "Delivered To :"+ ''+ JSON.parse(localStorage.getItem('Address'));
+   textEl.innerHTML =JSON.parse(localStorage.getItem('selected'))
+
+  var customer =document.getElementById('customerName')
+  customer.innerHTML =JSON.parse(localStorage.getItem('name'))
+
+  var customerPhone = document.getElementById('customerPhone');
+  customerPhone.innerHTML = JSON.parse(localStorage.getItem('phone'));
     
 
 }
