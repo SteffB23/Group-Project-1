@@ -276,3 +276,16 @@ body{
     
     
   }
+
+  #add {
+    padding: 15px;
+    margin-top:20px ;
+    margin-left:20px ;
+    margin-bottom: 5px;
+    border-radius: 15px;
+    background-color: #FFA500;
+  }
+  #text1{
+    color:#FFA500;
+    font-size: x-large;
+  }

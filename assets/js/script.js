@@ -108,6 +108,35 @@ function chooseMenu4(){
     console.log('test')
     window.location= "sandwich.html"
 }
+// beverage :
+var beverageEl = document.querySelector('.max-h-12-5')
+console.log(beverageEl)
+
+
+beverageEl.addEventListener('click', chooseMenu5);
+  
+
+
+function chooseMenu5(){
+    console.log('test')
+    window.location= "beverage.html"
+}
+
+// Dessert :
+var dessertEl = document.querySelector('.max-h-12-6')
+console.log(dessertEl)
+
+
+dessertEl.addEventListener('click', chooseMenu6);
+  
+
+
+function chooseMenu6(){
+    console.log('test')
+    window.location= "dessert.html"
+}
+
+
 
 
 // Main Menu End here:
