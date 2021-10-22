@@ -1,70 +1,25 @@
-# Employee Lunch Form Project
+# SUPER EATS Project
 ![Preview of PROJECT](assets\images\Preview.gif)
-#### Employee Lunch Form Project, DATE FINISHED
+Presentation Slides: https://docs.google.com/presentation/d/1zj5VDQbcsmHNtcNLl3GyxRMnORlC5nvnGN-QVYN_Fug/edit?usp=sharing
+#### SUPER EATS Project, 10-21-2021
 #### By Stephan Brookens, Amar Ait-Gherbi, Paul McDevitt, Yassin Alisheikh
-
-<!-- # Proposal Guide
-## Title "Employee Lunch Form"
-## Description:
-An effective but simple way of ordering food for the company. Gives the employees convenience and accessibility to having lunch without having to travel. Uses existing employee ID# and Password for identification purposes. 
-
-
-## APIs (Third-party):
-OpenWeather 
-Moment.js (Date & Time)
-Geolocation.getCurrentPosition() [Geolocation] link: "https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API"
-
-## Wireframe or Design for the website
-![Preview of PROJECT](assets\images\wire grid.jpg)
-## List of Tasks or Acceptance Criteria
+## Description
+The app shown is to give an example of a complete and functioning food ordering application for anyone to use on all websites.
 ```
-AS A employer
-I WANT to provide a form that allows my employees to order lunch simultaneouosly
-SO THAT I can ensure they eat
+AS A convenience provider
+I WANT to provide a app that allows anyone to order food quickly while having their location readily available with the click of a button
+SO THAT we can ensure they receive a meal of their choice expiditiously
 ```
-GIVEN I am ordering a lunch meal:
-WHEN I load the form, I am presented with a food menu 
-WHEN I enter my Id and email 
-THEN I should be able to access the main menu 
-WHEN I'm in the main menu 
-THEN I will be able to choose a meal or item from the menu 
-WHEN I choose something from the menu 
-THEN I should have an option to add options to customize my order
-WHEN my order is completed 
-THEN I can place my order (submit)
-WHEN my order is ready
-I SHOULD see a modal display "Your food is ready".
-
-## First Task for each member
-Amar & paul:
-Template of the first page style, APIs, form to enter employee ID# & password.
-
-Stephan and Yassin:
-Template of second page style, links submit order button with modal to display a message and log all data to the console.
-
-## What does the functioning prototype have in features for the first week? -->
-We will have a UI, design scheme and form
-
-
-
-```
-AS A employer
-I WANT to provide a form that allows my employees to order lunch simultaneouosly
-SO THAT I can ensure they eat
-```
-GIVEN I am ordering a lunch meal:
-WHEN I load the form, I am presented with a food menu 
-WHEN I enter my Id and email 
-THEN I should be able to access the main menu 
-WHEN I'm in the main menu 
-THEN I will be able to choose something from the menu 
-WHEN I choose something from the menu 
-THEN I should have an option to add more details
-WHEN my order is completed 
-THEN I can place my order (submit)
-WHEN my order is ready
-I SHOULD receive an alert "Your food is ready".
-
+GIVEN when i am ready to order food:
+WHEN I load the page, I am presented with a place to order or view a menu
+WHEN I click on order now
+THEN I should be able to access the main menu and an option for my location should appear so that i dont need to use or fill out a form about my current location
+WHEN I'm in the main menu
+THEN I will be able to choose different food items from the menu
+WHEN I choose something from the menu
+THEN I should have an option to add different ingredients to my choice
+WHEN my order is completed
+THEN my information should be logged and ready to be delivered without any further steps
 ## Setup/Installation Requirements
 * Clone this repository.
 * Open HTML in Live Server.
@@ -72,20 +27,21 @@ I SHOULD receive an alert "Your food is ready".
 ## Known Bugs
 No bugs known.
 ## Support and contact details
-Please email us for further questions at OUR EMAILS:
-a.
-b.
-c.
-d.
+Please email us for further questions at OUR EMAIL:
+Sbrookens@hotmail.com
+augustine2903a@gmail.com
+yassinnawed@gmail.com
+paul.mcd1@icloud.com
 ## Technologies Used
 HTML
 CSS
+Tailwind CSS
 JavaScript
-JQuery 
-API's (1.........2.......... or 3)
-## Contribution Guidlines 
+JQuery
+API's (OpenCage Location API OpenWeather API)
+## Contribution Guidlines
 Direct link to site:
-<!--LINK TO PUBLISHED PRODUCT HERE-->
-<!--Link TO GIT REPOSITORY HERE-->
+https://steffb23.github.io/Group-Project-1/
+https://github.com/SteffB23/Group-Project-1
 Copyright(c) 2021 by -----OUR GROUP----
 This software is licensed under MIT license.
