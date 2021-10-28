@@ -65,6 +65,15 @@ THEN I can place my order (submit)
 WHEN my order is ready
 I SHOULD receive an alert "Your food is ready".
 
+
+
+
+
+
+
+
+
+
 ## Setup/Installation Requirements
 * Clone this repository.
 * Open HTML in Live Server.
