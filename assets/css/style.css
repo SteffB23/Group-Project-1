@@ -13,6 +13,11 @@
   width: 77%;
   background-color:#FFA500 ;
 }
+#line-menu{
+  height: 2px;
+  width: 100%;
+  background-color:#FFA500 ;
+}
 
 .mt-8 {
   border-radius:15px;
@@ -140,6 +145,11 @@ body{
     background-repeat: no-repeat;
   }
   /* style time and weather/location */
+
+  #demo2 {
+    color:black;
+    font-size: x-large;
+  }
   
 <<<<<<< HEAD
   #weather{
@@ -177,15 +187,24 @@ body{
     background-repeat: no-repeat;
     background-size: contain;
   }
-  
+/*   
   .h-24 w-24 rounded-full ring-4 ring-white sm:h-32 sm:w-32 {
     background-size: cover;
-  }
+  } */
   
-  .h-32 w-full object-cover {
+  /* .h-32 w-full object-cover {
       background-size: cover;
   }
-  
+   */
+
+
+   .text-center{
+     color:#FFA500;
+     font-size: xx-large;
+     
+   }
+
+
   .max-h-12-1 {
     border-radius: 25px;
     box-shadow: 0 19px 38px rgba(0, 0, 0, 0.438), 0 15px 12px rgba(0, 0, 0, 0.493);
@@ -285,4 +304,17 @@ body{
     border:1px solid gray;
     
     
+  }
+
+  #add {
+    padding: 15px;
+    margin-top:20px ;
+    margin-left:20px ;
+    margin-bottom: 5px;
+    border-radius: 15px;
+    background-color: #FFA500;
+  }
+  #text1{
+    color:#FFA500;
+    font-size: x-large;
   }
